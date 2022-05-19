@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Smart VK API" timestamp="2022-05-19T18:45:12" time="5.883" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Smart VK API"/>
+      <property name="capabilities" value="chrome.101_0_4951_67.windows"/>
+      <property name="file" value=".\test\specs\vk.spec.js"/>
+    </properties>
+    <testcase classname="chrome.101_0_4951_67.windows.Smart_VK_API" name="Should run test scenarios" time="5.883">
+      <system-out><![CDATA[
+COMMAND: DELETE /session/8855c9cd29faf4c2f9fb174b7a2ea47e - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/url - {"url":"https://vk.com/"}
+RESULT: {"url":"https://vk.com/"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/window/maximize - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+RESULT: {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+RESULT: {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+RESULT: {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+RESULT: {"using":"xpath","value":"//button[contains(@class, 'VkIdForm__signInButton')]"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/3d4bf4df-9c15-4ac3-9748-165f65419810/click - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//input[@name='login']"}
+RESULT: {"using":"xpath","value":"//input[@name='login']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//input[@name='login']"}
+RESULT: {"using":"xpath","value":"//input[@name='login']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//input[@name='login']"}
+RESULT: {"using":"xpath","value":"//input[@name='login']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//input[@name='login']"}
+RESULT: {"using":"xpath","value":"//input[@name='login']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/626d4eea-d517-46f9-9bf7-1cf35979f8ef/clear - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/626d4eea-d517-46f9-9bf7-1cf35979f8ef/value - {"text":"+375291660762"}
+RESULT: {"text":"+375291660762"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//button[@type='submit']"}
+RESULT: {"using":"xpath","value":"//button[@type='submit']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/c8d6e3c6-95e6-490e-a265-f6560b50c779/click - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//input[@type='password']"}
+RESULT: {"using":"xpath","value":"//input[@type='password']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//input[@type='password']"}
+RESULT: {"using":"xpath","value":"//input[@type='password']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"xpath","value":"//input[@type='password']"}
+RESULT: {"using":"xpath","value":"//input[@type='password']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//input[@type='password']"}
+RESULT: {"using":"xpath","value":"//input[@type='password']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/f52a702f-0dff-47b1-9088-2dab8fcfd5d7/clear - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/f52a702f-0dff-47b1-9088-2dab8fcfd5d7/value - {"text":"PuV6j_.2&$m9h?UYY"}
+RESULT: {"text":"PuV6j_.2&$m9h?UYY"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//button[@type='submit']"}
+RESULT: {"using":"xpath","value":"//button[@type='submit']"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/44d14887-8a18-4026-b1c9-dc53962e2438/click - {}
+RESULT: {}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"css selector","value":"#submit_post_box"}
+RESULT: {"using":"css selector","value":"#submit_post_box"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"css selector","value":"#submit_post_box"}
+RESULT: {"using":"css selector","value":"#submit_post_box"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"css selector","value":"#submit_post_box"}
+RESULT: {"using":"css selector","value":"#submit_post_box"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/elements - {"using":"css selector","value":"#submit_post_box"}
+RESULT: {"using":"css selector","value":"#submit_post_box"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element - {"using":"xpath","value":"//li[@id='l_pr']//span[contains(@class, 'left_label') and contains(@class, 'inl_bl')]"}
+RESULT: {"using":"xpath","value":"//li[@id='l_pr']//span[contains(@class, 'left_label') and contains(@class, 'inl_bl')]"}
+COMMAND: POST /session/47bb1434c06eba7409cc9446483614bf/element/c74e007a-356b-4805-9e37-5e5ea3d553cc/click - {}
+RESULT: {}
+COMMAND: DELETE /session/47bb1434c06eba7409cc9446483614bf - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
