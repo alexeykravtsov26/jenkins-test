@@ -15,7 +15,7 @@ describe('Smart VK API', () => {
         await authorizationform.continueButtonClick();
         await authorizationform.setPasswordIntoPasswordTextField(testUser.password);
         await authorizationform.continueButtonClick();
-        // assert.isTrue(await feedpage.isPageOpened(), 'Feed Page should be opened');
-        // await leftmenu.myPageLinkClick();
+        assert.isTrue(await feedpage.isPageOpened(), 'Feed Page should be opened');
+        await leftmenu.myPageLinkClick();
     });
 });
