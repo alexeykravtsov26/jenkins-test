@@ -16,7 +16,12 @@ exports.config = {
     connectionRetryCount: 3,
     services: ['chromedriver','geckodriver'],
     framework: 'mocha',
-    reporters: ['spec'],
+    reporters: [
+        'spec',
+        ['junit', {
+            outputDir: './report'
+        }]
+    ],
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000
